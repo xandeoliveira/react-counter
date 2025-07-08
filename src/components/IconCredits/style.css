@@ -1,0 +1,13 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  padding-left: 60px;
+  padding-right: 60px
+}
+
+a {
+  display: block;
+  margin: 8px;
+}

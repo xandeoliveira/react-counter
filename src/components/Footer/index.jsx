@@ -1,3 +1,5 @@
+import React from 'react'
+
 import './style.css'
 import Linkedin from '../../assets/linkedin.png'
 import Github from '../../assets/github.png'
@@ -17,6 +19,10 @@ function Footer () {
           <a href="https://www.linkedin.com/in/alexandre-computacao/" target='_blank'>LinkedIn</a>
         </div>
 
+        <div className="credits">
+          Créditos
+        </div>
+
       </div>
       
       <div className="date">
@@ -25,8 +31,5 @@ function Footer () {
     </footer>
   )
 }
-// creditos
-/* <a href="https://www.flaticon.com/br/icones-gratis/numeros" title="números ícones">Números ícones criados por Freepik - Flaticon</a> */
-/* <a href="https://www.flaticon.com/br/icones-gratis/linkedin" title="linkedin ícones">Linkedin ícones criados por riajulislam - Flaticon</a> */
-/* <a href="https://www.flaticon.com/br/icones-gratis/github" title="github ícones">Github ícones criados por riajulislam - Flaticon</a> */
+
 export default Footer

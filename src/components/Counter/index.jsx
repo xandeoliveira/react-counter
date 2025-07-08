@@ -1,3 +1,5 @@
+import React from 'react'
+
 import './style.css'
 import Increment from '../../assets/adicionar.png'
 import Decrement from '../../assets/subtrair.png'
@@ -31,10 +33,5 @@ function Counter () {
     </main>
   )
 }
-
-/*
-<a href="https://www.flaticon.com/br/icones-gratis/menos" title="menos ícones">Menos ícones criados por Alfredo Hernandez - Flaticon</a>
-<a href="https://www.flaticon.com/br/icones-gratis/google-plus" title="google plus ícones">Google plus ícones criados por Smashicons - Flaticon</a>
-*/
 
 export default Counter
