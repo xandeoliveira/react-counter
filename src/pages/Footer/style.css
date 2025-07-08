@@ -1,0 +1,26 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+
+  padding: 15px;
+  background-color: antiquewhite;
+
+  & .social{
+    display: flex;
+    gap: 30px;
+  }
+}
+
+.social div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+
+main, .control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+main {
+  flex-direction: column;
+  gap: 30px;
+}
+
+.counter {
+  height: 200px;
+  font-size: 120px;
+  font-family: "Knewave", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.increment, .decrement {
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+}
