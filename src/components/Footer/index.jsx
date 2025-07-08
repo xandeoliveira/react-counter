@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 import './style.css'
 import Linkedin from '../../assets/linkedin.png'
 import Github from '../../assets/github.png'
@@ -20,7 +20,7 @@ function Footer () {
         </div>
 
         <div className="credits">
-          Créditos
+          <Link to="/creditos" >Créditos</Link>
         </div>
 
       </div>

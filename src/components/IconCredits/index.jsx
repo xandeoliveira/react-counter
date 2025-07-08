@@ -6,8 +6,6 @@ function IconCredits () {
 
   return (
     <main>
-      <h1>Créditos</h1>
-
       <h2>Autor</h2>
       <p>
         <a href="https://www.linkedin.com/in/alexandre-computacao/" title="autor">Alexandre Lima de Oliveira</a>
